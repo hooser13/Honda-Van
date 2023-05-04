@@ -37,8 +37,8 @@ class FollowProfile:
 ONE_BAR_PROFILE = FollowProfile(
   vEgoProfiles=(
     vEgoProfile(vEgo=SNG_SPEED, v_rel=[0], TR=[SNG_DISTANCE]),
-    vEgoProfile(vEgo=CITY_SPEED, v_rel=[-0.1, 2.75], TR=[ONE_BAR_DISTANCE, 2.1]),
-    vEgoProfile(vEgo=HIGHWAY_SPEED, v_rel=[-0.01, 1.25], TR=[ONE_BAR_DISTANCE, ONE_BAR_DISTANCE-0.2]),))
+    vEgoProfile(vEgo=CITY_SPEED, v_rel=[-0.1, 3.00], TR=[ONE_BAR_DISTANCE, 2.1]),
+    vEgoProfile(vEgo=HIGHWAY_SPEED, v_rel=[-0.1, 1.50], TR=[ONE_BAR_DISTANCE, ONE_BAR_DISTANCE-0.1]),))
 TWO_BAR_PROFILE = FollowProfile(
   vEgoProfiles=(
     vEgoProfile(vEgo=SNG_SPEED, v_rel=[0], TR=[SNG_DISTANCE]),
